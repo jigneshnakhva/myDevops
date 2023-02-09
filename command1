@@ -1,0 +1,347 @@
+edureka@kmaster:/$ history
+
+    1  ls
+
+    2  rm -rf terraform_0.15.3_linux_amd64.zip 
+
+    3  sudo systemctl start grafana-server
+
+    4  prometheus 
+
+    5  prometheus --config.file=/opt/prometheus-2.27/prometheus.yml
+
+    6  sudo apt remove docker-compose 
+
+    7  sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
+    8  sudo chmod +x /usr/local/bin/docker-compose
+
+    9  docker-compose --version
+
+   10  clear
+
+   11  docker --version
+
+   12  sudo systemctl status grafana-server
+
+   13  sudo systemctl enable grafana-server
+
+   14  cd /etc/systemd/system/
+
+   15  ks
+
+   16  ls
+
+   17  vi tomcat.service 
+
+   18  sudo vi prometheus.service
+
+   19  cd ~
+
+   20  sudo vi prometheus
+
+   21  cd /etc/systemd/system/
+
+   22  sudo vi prometheus.service
+
+   23  sudo systemctl status prometheus
+
+   24  sudo vi prometheus.service
+
+   25  sudo systemctl status prometheus
+
+   26  sudo systemctl start prometheus
+
+   27  sudo systemctl enable prometheus
+
+   28  cd /etc/systemd/system
+
+   29  ls
+
+   30  vi tomcat.service 
+
+   31  sudo systemctl status jenkins
+
+   32  sudo systemctl start jenkins
+
+   33  sudo systemctl status jenkins
+
+   34  sudo systemctl status jenkins
+
+   35  sudo cloud-init clean
+
+   36  jenkins --version
+
+   37  systemctl status jenkins
+
+   38  systemctl stop jenkins
+
+   39  sudo systemctl stop jenkins
+
+   40  systemctl status jenkins
+
+   41  sudo apt-get remove jenkins
+
+   42  sudo apt-get remove --auto-remove jenkins
+
+   43  sudo apt-get purge jenkins
+
+   44  sudo apt-get purge --auto-remove jenkins
+
+   45  systemctl status jenkins
+
+   46  sudo apt update
+
+   47  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4EB27DB2A3B88B8B
+
+   48  sudo apt update
+
+   49  java -version
+
+   50  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+
+   51  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+   52  sudo apt install jenkins
+
+   53  sudo apt update
+
+   54  sudo apt install ca-certificates
+
+   55  sudo apt update
+
+   56  sudo apt install jenkins
+
+   57  sudo apt install openjdk-11-jdk
+
+   58  sudo apt-get remove jenkins
+
+   59  java -version
+
+   60  sudo update-alternatives --config java
+
+   61  java -version
+
+   62  systemctl status jenkins
+
+   63  systemctl start jenkins
+
+   64  sudo systemctl start jenkins
+
+   65  systemctl status jenkins
+
+   66  netstat -tulpn
+
+   67  ip a
+
+   68  systemctl status tomcat.service 
+
+   69  sudo systemctl start tomcat.service 
+
+   70  systemctl status tomcat.service 
+
+   71  netstat -tulpn
+
+   72  sudo systemctl stop jenkins
+
+   73  sudo systemctl status jenkins
+
+   74  sudo systemctl stop tomcat.service 
+
+   75  sudo systemctl start tomcat.service 
+
+   76  netstat -tulpn
+
+   77  ip a
+
+   78  netstat -tulpn
+
+   79  sudo systemctl status tomcat.service 
+
+   80  whoami
+
+   81  cd..
+
+   82  ls -l
+
+   83  ls -a
+
+   84  cd documents
+
+   85  cd Documents
+
+   86  mkdir Jignesh
+
+   87  cd Jignesh
+
+   88  touch file1
+
+   89  cat file1
+
+   90  cat file1 > Hello World!
+
+   91  cat file1 >> Hello World!
+
+   92  cat file1 >> Hello World
+
+   93  cat file1 > Hello World
+
+   94  vi file1
+
+   95  cat file1 >>stdout
+
+   96  print file1
+
+   97  echo file1
+
+   98  git verson
+
+   99  git version
+
+  100  git clone https://github.com/jigneshnakhva/myDevops.git
+
+  101  git ls
+
+  102  git ls files
+
+  103  git ls -files
+
+  104  touch file1
+
+  105  vi file1
+
+  106  git init
+
+  107  git add file1
+
+  108  git status
+
+  109  git commit file1
+
+  110  git config --global user.email "jigneshsnakhva@gmail.com"
+
+  111  git commit file1
+
+  112  whoami
+
+  113  mkdir project1
+
+  114  cd project1
+
+  115  cd cd ..
+
+  116  cd..
+
+  117  cd /
+
+  118  cp file1
+
+  119  cp --help
+
+  120  cp file1 -t project1
+
+  121  cp -t edureka/file1 project1
+
+  122  cp -t file1 project1
+
+  123  cp -t file project1
+
+  124  cd project1
+
+  125  touch file
+
+  126  touch fil2
+
+  127  cd project
+
+  128  cd project1
+
+  129  ls -l
+
+  130  git commit file1
+
+  131  git status
+
+  132  cd project1
+
+  133  makedir project1
+
+  134  cd project1
+
+  135  mkdir projectgit
+
+  136  mkdir projectgt
+
+  137  mkdir project2
+
+  138  sudo su-
+
+  139  sudo su -
+
+  140  % sudo su -
+
+  141  whoami
+
+  142  git status
+
+  143  ls
+
+  144  git remote add origin https://github.com/jigneshnakhva/myDevops.git
+
+  145  git remote -v
+
+  146  git remote set-url origin https://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@github.com/jigneshnakhva/myDevops.git
+
+  147  mkdir pushtest
+
+  148  cd project1/
+
+  149  git remote -v
+
+  150  git push -u origin master
+
+  151  'ls
+
+  152  [F
+
+  153  cd project1/
+
+  154  ls
+
+  155  git status
+
+  156  vi upload_file1
+
+  157  git status
+
+  158  git add upload_file1 
+
+  159  git commit -m "uploaded"
+
+  160  ls
+
+  161  git remote -v
+
+  162  git push -u origin master
+
+  163  history
+
+  164  cd..
+
+  165  cd.
+
+  166  cd .
+
+  167  cd exit
+
+  168  cdcdlf
+
+  169  cd..
+
+  170  cd s
+
+  171  cd /
+
+  172  history
+
+
